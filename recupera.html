@@ -50,13 +50,32 @@
       <h1>Ingresa tu nueva contraseña</h1>
     </div>
     <p class="lead">Ingresa nombre usuario o correo para recuperar tu contraseña</p>
-    <p>Regresar<a href="../sticky-footer">Regresar</a> Accede a nuestro contenido</p>
+   <!-- <p>Regresar<a href="../sticky-footer">Regresar</a> Accede a nuestro contenido</p> -->
   </div>
 
   <footer class="footer">
     <div class="container">
-      <p class="text-muted">cajas de texto.</p>
+      <p class="text-muted">Ingresa tus datos correspondientes.</p>
+
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Correo</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">Ingresa correo valido</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Usuario</label>
+          <input type="text" class="form-control" id="usuario" placeholder="Usuario">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Checar</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
     </div>
   </footer>
+
+  
 </body>
 </html>
